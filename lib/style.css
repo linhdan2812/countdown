@@ -87,7 +87,7 @@
         }
     }
 
-    /* .firework-container {
+    .firework-container {
         position: fixed;
         top: 0;
         left: 0;
@@ -144,7 +144,7 @@
         height: 4px;
         border-radius: 50%;
         background: #fff;
-        box-shadow: 0 0 40px 8px rgba(255, 220, 100, 0.8);
+        box-shadow: 0 0 40px 10px rgba(255, 220, 100, 0.8);
     }
 
     @keyframes explode {
@@ -161,12 +161,12 @@
             transform: translateX(var(--x)) translateY(var(--y));
             opacity: 0;
         }
-    } */
+    }
 
-    #fireworksCanvas {
+    /* #fireworksCanvas {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-    }
+    } */
